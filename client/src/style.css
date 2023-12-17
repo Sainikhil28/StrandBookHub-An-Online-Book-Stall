@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .book {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 250px;
+    background-color: #fff;
+  }
+  
+  .book img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #e44d26; /* orange color */
+  }
+  
+  .delete,
+  .update {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .delete {
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+  }
+  
+  .update {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+  }
+  
+  .addHome {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50; /* green color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
