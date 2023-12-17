@@ -1,0 +1,83 @@
+/* Books.css */
+
+.books-container {
+    background-image: url("https://s26162.pcdn.co/wp-content/uploads/2018/03/strand.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #0b0303; /* Text color for better readability on the background image */
+    padding: 20px;
+    height: 100vh; /* Set height to 100% of the viewport height */
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .book {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  }
+  
+  .book img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
+  
+  p {
+    color: #333;
+  }
+  
+  span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #e44d26;
+  }
+  
+  .delete,
+  .update {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .delete {
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+  }
+  
+  .update {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+  }
+  
+  .addHome {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+  }
